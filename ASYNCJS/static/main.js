@@ -150,8 +150,11 @@ const userData = {
 
 const url = 'https://httpbin.org/post'
 
-// console.log(postData(url, userData))
+async function callPostData(url, userData){
+        console.log( await postData(url, userData))
+}
 
+callPostData(url, userData)
 
 async function getTVData(query){
     
