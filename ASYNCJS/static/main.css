@@ -12,6 +12,7 @@ body {
     margin: 30px auto;
     background-color:rgb(25, 25, 25);
     color: white;
+    box-shadow: 5px 5px 5px grey;
     
 }
 
