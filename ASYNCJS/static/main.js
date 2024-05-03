@@ -154,7 +154,10 @@ async function callPostData(url, userData){
         console.log( await postData(url, userData))
 }
 
-callPostData(url, userData)
+callPostData(url, userData) //calling our postData function
+
+
+//GET REQUEST
 
 async function getTVData(query){
     
